@@ -4,6 +4,7 @@ import java.security.NoSuchAlgorithmException;
 
 public class SHA_256 {
 
+    // Since two block of same content may produce same hash value, so append the block serial number as final hash value
     public static String hash(byte[] blockData) {
         String hashvalue = "";
         try {
