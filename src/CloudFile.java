@@ -7,7 +7,7 @@ import java.util.Vector;
 
 // represent a file that stored on cloud server
 public class CloudFile {
-    private final String writePath =".\\WiteData\\";
+    private final String writePath =".\\WriteData\\";
     private  String fileName ;
     private  int fileVersion ;
     private boolean IN_FILE_TRANSFER ;   //check if the server is in file transfer
